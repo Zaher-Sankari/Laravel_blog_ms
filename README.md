@@ -50,11 +50,16 @@ php artisan serve
 
 This will typically start the app at `http://127.0.0.1:8000`.
 
-**7. Authentication & Admin Access**
+**6. Authentication & Admin Access**
 - Use the following account as an admin accout:
 ```powershell
 username: admin@admin.com
 password: 12345678
 ```
-Then create as many users as you want.
+- and use this account as a user accout:
+```powershell
+username: user@user.com
+password: 12345678
+```
+and you create as many users as you want.
 
